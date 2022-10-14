@@ -1,0 +1,23 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  margin: auto;
+  border: 6px solid blue;
+  display: inline-grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(16, auto);
+  background-color: #eeeeee;
+}
+
+.grid-container div {
+  width: 36px;
+  height: 36px;
+  background: #ffffff;
+}
+
+button.active {
+  background-color: #000000;
+  color: #ffffff;
+}
